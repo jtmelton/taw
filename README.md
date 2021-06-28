@@ -2,7 +2,6 @@
 A zero-dependency tool for finding all the file extensions and their count in a directory.
 
 ## Building
-Maven is required for building.
 ```bash
 # Building
 CGO_ENABLED=0 GOOS=darwin go build -a -installsuffix cgo . 
