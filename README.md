@@ -21,6 +21,8 @@ outputFile | Output File | true
 #### The output json is as follows:
 
 ```Javascript
+{
+  "extension-counts": [
   {
     "extension": ".go",
     "count": 74
@@ -33,6 +35,9 @@ outputFile | Output File | true
     "extension": ".docx",
     "count": 83
   },
+  ...
+  ]
+}
 ```
 
 ## Docker Support
