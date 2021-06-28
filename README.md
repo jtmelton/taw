@@ -23,18 +23,18 @@ outputFile | Output File | true
 ```Javascript
 {
   "extension-counts": [
-  {
-    "extension": ".go",
-    "count": 74
-  },
-  {
-    "extension": ".java",
-    "count": 15
-  },
-  {
-    "extension": ".docx",
-    "count": 83
-  },
+    {
+      "extension": ".go",
+      "count": 74
+    },
+    {
+      "extension": ".java",
+      "count": 15
+    },
+    {
+      "extension": ".docx",
+      "count": 83
+    },
   ...
   ]
 }
