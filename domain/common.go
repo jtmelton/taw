@@ -10,6 +10,7 @@ type Options struct {
 type ExtensionCount struct {
 	Extension string `json:"extension"`
 	Count     int    `json:"count"`
+	Bytes     int    `json:"bytes"`
 }
 
 // ExtensionCounts struct represents an array of extension counts

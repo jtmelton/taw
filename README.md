@@ -1,5 +1,6 @@
 # taw
-A zero-dependency tool for finding all the file extensions and their count in a directory.
+A zero-dependency tool for finding all the file extensions, 
+their count, and their size in bytes in a given directory.
 
 ## Building
 ```bash
@@ -25,15 +26,18 @@ outputFile | Output File | true
   "extension-counts": [
     {
       "extension": ".go",
-      "count": 74
+      "count": 74,
+      "bytes": 45988
     },
     {
       "extension": ".java",
-      "count": 15
+      "count": 15,
+      "bytes": 37341
     },
     {
       "extension": ".docx",
-      "count": 83
+      "count": 83,
+      "bytes": 503761
     },
   ...
   ]
